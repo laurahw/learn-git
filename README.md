@@ -57,4 +57,34 @@ You can do this from the terminal, but GitHub makes it super easy to review chan
 At the top of the list of files, you should see a button labelled *New Pull Request*, click it. 
 The *base* is the branch you want to merge your work into, the *compare* is the work you want to merge. Make sure these are correct. 
 Since the code we have here is really simple, it should give you a *Ready to merge* notice. 
-If there were clashes, for example if someone else had edited the same line of the same file as you, it would say *Unable to merge automatically*. This is what we call a *conflict*
+If there were clashes, for example if someone else had edited the same line of the same file as you, it would say *Unable to merge automatically*. This is what we call a *conflict*.
+You can still go ahead and create the pull request though, as it does not automatically merge the branches. 
+### Dealing with conflicts
+Near the bottom of your pull request, you should see an option to *resolve conflicts*. Click this. 
+This will show you the two branches' changes side by side, and you can decide if you want to keep one, the other or merge both somehow. 
+The conflicts will be marked by <<<<<<<, =======, >>>>>>>, to indicate where the conflict is.
+Delete these and make the changes you want in the final merge.
+If there's more than one conflict, work your way through the file, resolving the conflicts as so. 
+Once you're satisfied, click *Mark as resolved*
+### Merging a pull request
+When there are no conflicts, a pull request should be ready to merge.
+Ideally, you should have a colleague/team member/peer do this, as it's easy to miss mistakes in work you've spent a lot of time on. 
+For the purpose of this exercise though, you can go ahead and merge your own. 
+To merge the pull request, funnily enough, click on  *Merge pull request*
+
+## Fin
+
+And that's it! You've successfully completed the basics of git. 
+You can now, following this guide: 
+- Create a new branch
+- Make changes and commit them
+- Create a pull request
+- Resolve conflicts
+- Merge pull requests
+
+For basic work, this should be sufficient. 
+Git doesn't just have to be for code either. It can also be used to control versions of documents, which can be helpful if a group of people are working on the same files.
+It also makes it very easy to revert your changes, and go back to an older version (hence the 'version control' aspect).
+
+Hopefully this will be useful to you! 
+Now, go forth and git. 
