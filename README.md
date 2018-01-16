@@ -6,4 +6,4 @@ If you’re reading this, then obviously you’ve heard of Git, and obviously Gi
 First things first, you're going to need access to this repository on your local machine. A repository is where files are stored, in other words, what you're looking at right now. 
 In order to copy this repository (also known as a repo), you will need to do the following:
 1. Open up your terminal
-⋅⋅1. Navigate to the folder that you want to copy the repo into
+..1. Navigate to the folder that you want to copy the repo into
