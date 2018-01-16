@@ -49,3 +49,12 @@ If you've forgotten what you called your branch, no worries, just type `git bran
 
 One you push it, you should be able to come back to this page and see that a new commit to your branch has appeared.
 You can continue making changes locally, and add, commit and push changes as this step and the previous have outlined. 
+
+## Merging
+Okay, so you've done your work and you're ready to have it added to the main branch. Usually, most development teams will have a `master` branch that holds all the code and files that are currently in production, and a `develop` branch that has all the files that are in a releasable state. 
+When you feel your code/files are ready to be added to the main branches, you create what is called a pull request (and no, that's not something that happens in a nightclub).
+You can do this from the terminal, but GitHub makes it super easy to review changes and approve them right here in your browser. 
+At the top of the list of files, you should see a button labelled *New Pull Request*, click it. 
+The *base* is the branch you want to merge your work into, the *compare* is the work you want to merge. Make sure these are correct. 
+Since the code we have here is really simple, it should give you a *Ready to merge* notice. 
+If there were clashes, for example if someone else had edited the same line of the same file as you, it would say *Unable to merge automatically*. This is what we call a *conflict*
